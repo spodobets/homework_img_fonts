@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0px 10px 0px 10px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 44px;
+    font-family: myFont;
+    font-style: normal;
+}
+
+span.text_green {
+    color: #71870E;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(./ogg-font-family/OggText-Light.ttf);
+}
+
+.description {
+    margin-top: 26px;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    opacity: 0.8500000238418579;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/trade-gothic-lt-std');
+
+.read_more {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 26px;
+
+}
+
+.breaker {
+    color: #D0A049;
+    font-family: myFont;
+    display: flex;
+    width: 96px;
+    height: 71px;
+    flex-direction: column;
+    margin-left: 85px;
+    text-align: end;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100px;
+}
+
+.read_more_text {
+    color: #D0A049;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+}
+
+div.image1 {
+    position: absolute;
+}
+
+div.image2 {
+    position: relative;
+    top: 278px;
+    left: 132px;
+}
